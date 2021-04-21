@@ -64,6 +64,7 @@ and then go to map, do map's order
 --I am Jason--
 --Do you miss me? by Bernie--
 --Jessie
+-- yo battle
     
 main =do    
     pretest"segments []" $segments []
