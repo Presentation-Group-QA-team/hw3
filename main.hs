@@ -50,7 +50,7 @@ occurrences xs = zip [x | x <- remdup xs] [elemOcc x xs | x <- remdup xs]
 --4.
 myMap :: (a -> b) -> [a] -> [b]
 myMap f = foldr (\x xs -> f x: xs) []
-
+--aaaa--
 --
 {-
 pipeline=map.foldr(.)id
@@ -58,13 +58,12 @@ built a new function by folding a list of functions together with (.)
 using id as the base case.
 and then go to map, do map's order
 
-
 -}
 
 --I am Jason--
 --Do you miss me? by Bernie--
 --Jessie
---聖凱666--    
+--roger--    
 main =do    
     pretest"segments []" $segments []
     pretest"segments [1,2,3]" $segments [1,2,3]
